@@ -1,0 +1,1 @@
+When a browser loads an HTML page, it creates a tree that represents that page. this tree is based on the DOM specification. it uses tags to determine where each node starts and ends.
