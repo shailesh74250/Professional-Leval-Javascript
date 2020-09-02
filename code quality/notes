@@ -1,0 +1,23 @@
+Code Quality
+
+Objectives
+1. identify the best practices for writing clean javascript Code
+2. perform linting and add a lint command to your node project
+3. use unit, integration, and end-to-end testing methods on your Code
+4. Automate linting and tests using Git hooks
+
+we will focus on improving code quality, setting up tests, and automating tests to run before a Git commit. These techniques can be used to ensure that mistakes or errors are found early on and never make it to production.
+
+In the previous chapter, we explored the concepts of modular design, ES6 modules, and their use with Node.js. We took our compiled ES6 JavaScript and converted it into a compatible script using Babel.
+
+In this chapter, we'll discuss code quality, which is one of the key qualities of professional JavaScript development. When we start writing code, we tend to focus on solving simple problems and evaluating the outcome. When it comes to the small pet projects that most developers start with, there is little need to communicate with others or work as part of a large team.
+
+As the projects, you work on becoming larger in scope, the importance of code quality increases. In addition to ensuring that the code works, we have to consider other developers who will use the components we create or update the code we write.
+
+There are several aspects of quality code. The first and most obvious is that it does what it is intended to do. This is often easier said than done. Often, it can be difficult to meet the requirements of a large project. To make matters more complex, often adding a new feature can cause an error in some existing part of the application. We can reduce these mistakes through good design but, even so, these types of breakages are bound to happen.
+
+As agile development becomes more popular, the speed at which code changes have also increased. As a result, tests are more important than ever. We'll demonstrate how you can use unit tests to confirm the proper functioning of functions and classes. In addition to unit tests, we'll look at integration testing, which ensures that all aspects of the program function together correctly as expected.
+
+The second component of code quality is performance. The algorithms in our code may produce the desired result, but do they do so efficiently? We'll look at how you can test functions for performance to ensure that algorithms can return results in an acceptable amount of time when processing a large input. As an example, you may have a sorting algorithm that works great with 10 rows of data but takes several minutes once you try processing 100.
+
+The third aspect of code quality we'll talk about in this chapter is readability. Readability is a measure of how easy it is for a human to read and understand your code. Have you ever looked at code written with vague functions and variable names or variable names that are misleading? When writing code, consider that others may have to read or modify it. Following some basic guidelines can help to improve your readability.

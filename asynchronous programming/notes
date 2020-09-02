@@ -1,0 +1,15 @@
+Asynchronous Programming
+Objectives
+
+Describe the workings of an Asynchronous operation
+Use callback to handle async operation
+Demonstrate callback and event loops
+Implement promises to handle async operations
+Rewrite async code with callbacks using promises
+Refactor your legacy code using async and await functions
+
+the asynchronous (later abbreviated as async) nature of JavaScript. 
+
+The focus will be on how conventional languages handle operations that take time to complete, and how JavaScript handles these operations. 
+
+how JavaScript runs and how we can handle time-consuming operations ?
