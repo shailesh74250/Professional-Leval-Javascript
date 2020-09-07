@@ -1,0 +1,21 @@
+In 2018, Google released the Puppeteer JavaScript library, which has drastically increased the ease with which end-to-end testing can be set up on a JavaScript-based project. Puppeteer is a headless version of the Chrome web browser, meaning that it has no GUI component. This is crucial, as it means we're testing our applications with a full Chrome browser, rather than a simulation.
+
+Puppeteer can be controlled through jQuery-like syntax, where elements on an HTML page are selected by ID or class and interacted with. For example, the following code opens Google News, finds a .rdp59b class, clicks on it, waits 3 seconds, and finally takes a screenshot:
+
+(async() => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('http://news.google.com');
+  const more = await page.$(".rdp59b");
+  more.click();
+  await page.waitFor(3000);
+  await page.screenshot({path: 'news.png'});
+  await browser.close();
+})();
+
+Bear in mind that, in the preceding example, we're selecting a .rdp59b class that looks like it was automatically generated; therefore, it is likely that this class will change in the future. In the case that the class name changes, the script will no longer work.
+
+Note: Puppeteer for Web Scraping and Automation
+In addition to being useful for writing end-to-end tests, Puppeteer can also be used for web scraping and automation. Almost anything that can be done in a normal browser can be automated (given the right code).
+
+In addition to being able to select elements on a page via selectors, as we previously looked at, Puppeteer has full access to keyboard and mouse simulation. Thus, more complex things such as automating web-based games and daily tasks are possible. Some have even managed to bypass things such as captchas using it.

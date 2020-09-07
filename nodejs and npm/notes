@@ -1,0 +1,19 @@
+Node.js and npm
+
+Objectives
+install and use Node.js to build applications
+Run javascript code using the Node.js execution environment
+Install and manage multiple Node.js versions using nvm
+identify and use modules developed by other developers using npm
+create and configure your own npm package
+
+ we will switch gears to the backend world by learning about Node.js and the basic concepts around it. We will go through how to install and manage multiple versions of Node.js using nvm, and then we will learn about npm and how to find and use external modules.
+
+
+ In the previous chapter, we learned about how HTML becomes the DOM and how to use JavaScript to query and manipulate the content of a page.
+
+Before JavaScript, all pages were static. After Netscape introduced the scripting environment to its browser, developers started using it to create dynamic and responsive applications. The applications started to become more and more complex but the only place where JavaScript was running was inside the browser. Then, in 2009, Ryan Dahl, the original developer of Node.js, decided to create a way to run JavaScript on the server side, simplifying the web developer's life by allowing them to build applications without having to depend on other languages.
+
+In this chapter, you will learn how Node.js works and how to use it to create scripts using JavaScript. You will learn about the basics of the Node.js core APIs, where to find their documentation, and how to use their read-eval-print loop (REPL) command line.
+
+With the skills to build JavaScript code, you will then learn how to manage multiple versions of Node.js and understand the importance of Node.js. You will also learn what npm is and how to import and use packages from other developers and build Node.js applications.

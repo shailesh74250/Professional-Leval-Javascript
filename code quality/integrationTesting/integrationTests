@@ -1,0 +1,5 @@
+So, we have discussed unit tests, which are extremely useful for finding the cause of errors when a project's code changes. However, it's also possible that the project passes all unit tests yet does not work as expected. This is because the whole of the project contains additional logic that glues our functions together, as well as static components such as HTML, data, and other artifacts.
+
+Integration tests can be used to ensure a project works from a higher level. For example, while our unit tests directly call functions such as math.square, an integration test will test multiple pieces of functionality working together for a particular result.
+
+Often, this means bringing together multiple modules or interacting with a database or other external components or APIs. Of course, integrating more parts means integration tests take longer, so they should be used more sparingly than unit tests. Another downside of the integration test is that when one fails, there are multiple possibilities as to the cause. In contrast, a failed unit test is generally easy to fix as the code being tested is in a specified location.

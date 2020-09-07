@@ -1,0 +1,10 @@
+This is a very powerful technique that can be taken for granted in environments where tests are already set up. In work environments without such a system, it's possible that changes from developers or updates in software dependencies that unexpectedly break an existing function are committed to source control. Later, the bug is found, and it becomes difficult to make the association between the broken function and the code change that caused it.
+
+It's also important to remember that unit tests ensure the functionality of some sub-unit of work, but not the functionality of a project as a whole (where multiple functions work together to produce a result). This is where integration testing comes into play. We will explore integration tests later on within this chapter.
+
+Setting up Jest tests to test a calculator application
+
+setting up a unit test using jest, the most popular testing framework in the javascript ecosystem
+we will continue with our example of a calculator application and set up 
+automated testing for a function that takes a number and outputs its square.
+
